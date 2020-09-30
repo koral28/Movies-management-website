@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form action="saveNewMovie" , method="GET">
+      <label for="moviename">Movie Name:</label><br />
+      <input type="text" id="moviename" name="moviename" /><br />
+      <label for="language">Language:</label><br />
+      <input type="text" id="language" name="language" /><br />
+      <label for="genres">Genres:</label><br />
+      <input type="text" id="genres" name="genres" /><br /><br />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>

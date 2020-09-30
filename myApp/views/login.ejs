@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <!-- how many times user enter to this page -->
+    <form action="usersDetails" , method="GET">
+      <label for="username">User name:</label><br />
+      <input type="text" id="username" name="username" /><br /><br />
+      <label for="password">Password:</label><br />
+      <input type="text" id="password" name="password" /><br /><br />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>

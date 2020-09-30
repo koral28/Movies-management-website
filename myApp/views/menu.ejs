@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <div>
+      <a href="/menu/searchMovies">Search for movies</a><br /><br />
+      <a href="/menu/createNewMovie">Create new movie</a><br /><br />
+      <!-- Will be presented ONLY for the Admin -->
+      <% if(admin == "admin"){%>
+      <a href="/menu/usersManagement">Edit Users</a><br />
+      <%}%>
+    </div>
+  </body>
+</html>

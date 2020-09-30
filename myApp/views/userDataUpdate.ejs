@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form action="adduser" , method="GET">
+      <label for="userName">User Name:</label><br />
+      <input type="text" id="userName" name="userName" value=<%=userDetails.userName%>><br /><br />
+      <label for="Password">Password:</label><br />
+      <input type="text" id="Password" name="Password" value=<%=userDetails.password%>><br /><br />
+      <label for="CreatedDate">Created Date:</label><br />
+      <input type="CreatedDate" id="CreatedDate" name="CreatedDate" value=<%=userDetails.CreatedDate%> ><br /><br />
+      <label for="NumofTransactions">Num of Transactions:</label><br />
+      <input type="NumofTransactions" id="NumofTransactions" name="NumofTransactions" value=<%=userDetails.NumofTransactions%>><br /><br />
+      <button type="submit"><Save>Save</button>
+    </form>
+  </body>
+</html>

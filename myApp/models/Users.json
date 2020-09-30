@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "Username": "Koral Levi",
+      "Password": 1234,
+      "CreatedDate": "26/7/2020",
+      "NumofTransactions": 100
+    },
+    {
+      "Username": "Adi Cohen",
+      "Password": 5678,
+      "CreatedDate": "31/7/2020",
+      "NumofTransactions": 3
+    },
+    {
+      "Username": "Gabi Amir",
+      "Password": "7899",
+      "CreatedDate": "2020-08-08",
+      "NumofTransactions": "3"
+    },
+    {
+      "Username": "Halina Shinahr",
+      "Password": "2222",
+      "CreatedDate": "2020-08-09",
+      "NumofTransactions": "7"
+    },
+    {
+      "Username": "Gal Benlol",
+      "Password": "1111",
+      "CreatedDate": "2020-08-09",
+      "NumofTransactions": "3"
+    },
+    {
+      "Username": "Shai Shenkar",
+      "Password": "1212",
+      "CreatedDate": "2020-08-09",
+      "NumofTransactions": "2"
+    },
+    {
+      "Username": "May Cho",
+      "Password": "8989",
+      "CreatedDate": "2020-08-09",
+      "NumofTransactions": "4"
+    },
+    {
+      "Username": "Tali Levy",
+      "Password": "8989",
+      "CreatedDate": "2020-08-09",
+      "NumofTransactions": "6"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+
+    <table style="width: 100%;">
+      <tr>
+        <th>Movie ID</th>
+        <th>Movie name</th>
+        <th>Movie genres</th>
+        <th>Movie language</th>
+        <th>Movie Picture</th>
+      </tr>
+      <tr>
+        <td><%=movieData.ID%></td>
+        <td><%=movieData.movieName%></td>
+        <td><%=movieData.movieGenres%></td>
+        <td><%=movieData.movieLanguage%></td>
+        <td><img src="<%=movieData.moviePicutre%>" alt="Italian Trulli" /></td>
+      </tr>
+    </table>
+    <br />
+
+    <a href="javascript:history.back()">Back</a><br />
+    <a href="/menu">Back to menu</a><br />
+  </body>
+</html>

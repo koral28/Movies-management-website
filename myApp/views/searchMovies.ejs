@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form action="searchResults" , method="GET">
+      <label for="moviename">Movie Name:</label>
+      <input type="text" id="moviename" name="moviename" /><br /><br />
+
+      <label for="genre">Genre:</label>
+      <select name="genre" id="genre">
+        <option value="Comedy">Comedy</option>
+        <option value="Drama">Drama</option>
+        <option value="Science-Fiction">Science-Fiction</option>
+        <option value="Thriller">Thriller</option> </select
+      ><br /><br />
+
+      <label for="language">Language:</label>
+      <select name="language" id="language">
+        <option value="English">English</option>
+        <option value="Herbrew">Herbrew</option> </select
+      ><br /><br />
+
+      <button type="submit">Search</button><br /><br />
+      <a href="javascript:history.back()">Back</a><br />
+    </form>
+  </body>
+</html>

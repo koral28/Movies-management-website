@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+
+    <table>
+      <tr>
+        <td>User Name</td>
+        <td>Operations</td>
+      </tr>
+      <%usersName.forEach((element) => {%>
+      <tr>
+        <td><%=element.Username%></td>
+        <td>
+          <ul>
+            <li>
+              <a href="/menu/delete/<%=element.Username%>">Delete User</a><br />
+            </li>
+            <li>
+              <a href="/menu/usersDataUpdate/<%=element.Username%>"
+                >Update User</a
+              ><br />
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <% });%>
+    </table>
+    <br /><br />
+    <a href="/menu/usersDataAddNew">Add New User</a><br />
+  </body>
+</html>

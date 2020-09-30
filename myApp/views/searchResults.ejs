@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <table>
+      <tr>
+        <td>Movie Name</td>
+        <td>Same genre movies</td>
+      </tr>
+      <tr>
+        <td><a href="/menu/movieData/<%=movieName%>"><%=movieName%></a></td>
+        <td>
+          <ul>
+            <%sameGenreMoviesNames.forEach((element) => {%>
+            <li><a href="/menu/movieData/<%=element%>"><%=element%></a></li>
+            <% });%>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <a href="javascript:history.back()">Back</a><br />
+  </body>
+</html>
